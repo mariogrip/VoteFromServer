@@ -45,8 +45,7 @@ public class vote implements CommandExecutor {
 				
 				}
 				if (args[0].equalsIgnoreCase("Minecraftservers.org")){
-					
-					
+					sender.sendMessage(plugin.getConfig().getString("Minecraftservers.org"));
 				}
 			}
 	      sender.sendMessage(plugin.getConfig().getString("Cannot_find_vote_url"));
