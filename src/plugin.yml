@@ -1,0 +1,8 @@
+name: VoteFromServer
+main: com.mariogrip.VoteFromServer.Main
+version: 1.0
+author: mariogrip
+commands:
+  vote:
+    description: Vote command
+    usage: /<command>
